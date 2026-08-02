@@ -52,7 +52,7 @@ report = classification_report(y_test, y_pred)
 print(report)
 
 with open("classification_report.txt", "w") as f:
-    f.write("## Classification Report\n\n'''\n")
+    f.write("## Classification Report\n\n'''text\n")
     f.write(report)
     f.write("\n'''\n")
 
