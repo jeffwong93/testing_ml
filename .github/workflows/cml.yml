@@ -3,7 +3,7 @@ name: Model Training & Evaluation
 on: [push]
 
 jobs:
-    run-cml:
+    run-cml: 
         runs-on: ubuntu-latest
 
         steps:
