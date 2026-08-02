@@ -38,7 +38,9 @@ jobs:
           run: |
             echo "# ML Model Performance Summary" > report.md
 
+            echo "'''text" >> report.md
             cat classification_report.txt >> report.md
+            echo "'''" >> report.md
 
             echo "## Confusion Matrix" >> report.md
             echo "![](./confusion_matrix.png)" >> report.md
